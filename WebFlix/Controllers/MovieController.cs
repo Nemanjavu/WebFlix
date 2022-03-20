@@ -9,6 +9,8 @@ namespace WebFlix.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
+    //test
     public class MovieController : ControllerBase
     {
 
@@ -21,7 +23,6 @@ namespace WebFlix.Controllers
 
 
         };
-
 
         // GET: api/<MovieController>
         [HttpGet]
